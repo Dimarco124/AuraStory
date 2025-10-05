@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Définition des métadonnées de base -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AuraStories - PDFs Numériques Premium</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Lien vers Font Awesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- En-tête du site -->
+    <header>
+        <div class="conteneur-en-tete">
+            <a href="index.html" class="logo">Aura<span>Stories</span></a>
+            <div class="phrase-acroche">
+                <p>Découvre, ressens et <br>partage le plaisir de lire autrement 📚</p>
+            </div>
+            <div class="icone-panier" id="iconePanier">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="compteur-panier">0</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Section Hero (bannière principale) -->
+    
+    <section class="hero">
+        <h1>Commencez l’aventure dès aujourd’hui !</h1>
+        <p>Chaque histoire vous entraîne dans un univers unique, plein de mystère, de romance ou d’aventure. Lisez gratuitement le premier chapitre et laissez-vous captiver par le récit.</p>
+        <a href="#produits" class="bouton">Explorer la collection</a>
+    </section>
+
+    <!-- Section Carrousel -->
+    <section class="section-carrousel">
+        <div class="carrousel">
+            <div class="conteneur-carrousel" id="conteneurCarrousel">
+                <!-- Élément 1 du carrousel -->
+                <div class="element-carrousel">
+                    <div class="carte-produit">
+                        <img src="REX66.png" alt="Nouveau PDF" class="image-produit">
+                        <div class="info-produit">
+                            <h3 class="titre-produit">REX² - L'Éveil des Cyborgs</h3>
+                            <div class="prix-produit">
+                                <span class="prix-actuel">1595FCFA</span>
+                                <span class="ancien-prix">4198FCFA</span>
+                            </div>
+                            <p>thriller futuriste haletant qui se déroule dans les rues d'Abidjan, où la frontière entre l'humain et la machine devient de plus en plus floue.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Élément 2 du carrousel -->
+                <div class="element-carrousel">
+                    <div class="carte-produit">
+                        <img src="CLONE.png" alt="Nouveau PDF" class="image-produit">
+                        <div class="info-produit">
+                            <h3 class="titre-produit">L'Odyssée des Clones</h3>
+                            <div class="prix-produit">
+                                <span class="prix-actuel">2035FCFA</span>
+                                <span class="ancien-prix">3980FCFA</span>
+                            </div>
+                            <p>roman de science-fiction qui se déroule dans une Afrique futuriste en 2122. L'histoire suit Kévin, un adolescent qui découvre qu'il est un clone créé pour servir de remplacement à son "original", le riche Kais Diomandé.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Élément 3 du carrousel -->
+                <div class="element-carrousel">
+                    <div class="carte-produit">
+                        <img src="PORTE AUBE.png" alt="Nouveau PDF" class="image-produit">
+                        <div class="info-produit">
+                            <h3 class="titre-produit">Les Portes de l’Aube</h3>
+                            <div class="prix-produit">
+                                <span class="prix-actuel">1800FCFA</span>
+                                <span class="ancien-prix">4900FCFA</span>
+                            </div>
+                            <p>roman d’aventure et de fantasy qui raconte l’histoire de Kévin Gnamien, un jeune mécanicien d’Abidjan dont la vie bascule lorsque sept portes mystérieuses apparaissent dans le ciel.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Navigation du carrousel -->
+            <div class="nav-carrousel">
+                <span class="point-carrousel actif" data-index="0"></span>
+                <span class="point-carrousel" data-index="1"></span>
+                <span class="point-carrousel" data-index="2"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section des produits -->
+    <section class="section-produits" id="produits">
+        <h2 class="titre-section">Nos Histoires Populaires</h2>
+        <div class="grille-produits" id="grilleProduits">
+            <!-- Les produits seront ajoutés dynamiquement ici -->
+        </div>
+    </section>
+
+    <!-- Page produit individuelle -->
+    <section class="page-produit" id="pageProduit">
+        <a href="#" class="retour-boutique" id="retourBoutique"><i class="fas fa-arrow-left"></i> Retour à la boutique</a>
+        
+        <div class="details-produit">
+            <div class="image-page-produit">
+                <img id="imagePageProduit" src="" alt="Image du produit">
+            </div>
+            <div class="info-page-produit">
+                <h1 class="titre-page-produit" id="titrePageProduit"></h1>
+                <p class="description-page-produit" id="descriptionPageProduit"></p>
+                <div class="prix-page-produit">
+                    <span class="prix-actuel" id="prixActuelPageProduit"></span>
+                    <span class="ancien-prix" id="ancienPrixPageProduit"></span>
+                </div>
+                <div class="actions-page-produit">
+                    <button class="bouton bouton-ajouter" id="ajouterAuPanierDepuisPage">Ajouter au panier</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section-apercu">
+            <h2 class="titre-apercu">Premier chapitre</h2>
+            <div class="contenu-chapitre" id="contenuChapitre">
+                <!-- Le contenu du chapitre sera ajouté dynamiquement ici -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Panier -->
+    <div class="overlay-panier" id="overlayPanier"></div>
+    <div class="panier-lateral" id="panierLateral">
+        <div class="en-tete-panier">
+            <h2 class="titre-panier">Votre <span>Panier</span></h2>
+            <button class="fermer-panier" id="fermerPanier"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="articles-panier" id="articlesPanier">
+            <!-- Les articles du panier seront ajoutés dynamiquement ici -->
+        </div>
+        <div class="total-panier">
+            <span>Total:</span>
+            <span id="totalPanier">0,00FCFA</span>
+        </div>
+        <button class="bouton bouton-valider" id="boutonValider"><i class="fa-brands fa-whatsapp"></i> Valider le panier</button>
+    </div>
+
+    <!-- Pied de page -->
+    <footer>
+        <div class="contenu-pied">
+            <a href="index.html" class="logo">Aura<span>Stories</span></a>
+            <p class="copyright">&copy; 2023 AuraStories. Tous droits réservés.</p>
+            <p>Chaque PDF raconte une histoire unique. 🔥</p>
+        </div>
+        <div class="paiement-info">
+            <p>Paiement disponible via :</p>
+            <div class="moyens-paiement">
+                <img src="wave.webp" alt="Wave" width="50px"  height="50px"/>
+                <img src="moov.webp" alt="MOOV" width="50px"  height="50px"/>
+                <img src="orange.webp" alt="ORANGE" width="50px"  height="50px"/>
+                <img src="OIP.webp" alt="MTN" width="50px"  height="50px"/>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

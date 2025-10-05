@@ -1,0 +1,665 @@
+/* Variables CSS pour les couleurs et effets */
+:root {
+    --bleu-principal: #87CEEB;
+    --bleu-clair: #E6F7FF;
+    --rose-principal: #ee213f;
+    --rose-clair: #FFF0F5;
+    --texte-fonce: #333333;
+    --texte-clair: #666666;
+    --blanc: #FFFFFF;
+    --ombre: 0 4px 12px rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s ease;
+}
+
+.highlight {
+    font-weight: bold;
+    padding: 2px 4px;
+}
+
+
+/* Réinitialisation des styles par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Corps */
+body {
+    background-color: var(--bleu-clair);
+    color: var(--texte-fonce);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* En-tête animé */
+header {
+    background: linear-gradient(135deg, var(--bleu-principal), var(--rose-principal));
+    background-size: 200% 200%;
+    animation: fondAnime 8s ease infinite;
+    padding: 1.5rem 5%;
+    box-shadow: var(--ombre);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    overflow: hidden;
+}
+
+/* Animation du fond */
+@keyframes fondAnime {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Conteneur */
+.conteneur-en-tete {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Logo */
+.logo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--blanc);
+    text-decoration: none;
+    position: relative;
+    transition: var(--transition);
+}
+.logo span {
+    color: #f50c2f;
+}
+
+/* Halo autour du logo */
+.logo::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background: radial-gradient(circle, rgba(255,255,255,0.5) 0%, transparent 70%);
+    transform: translate(-50%, -50%);
+    transition: 0.5s;
+}
+.logo:hover::after {
+    width: 180px;
+    height: 180px;
+    opacity: 0.3;
+}
+
+/* Phrase d’accroche (remplace la navigation) */
+.phrase-acroche {
+    max-width: 400px;
+    animation: fadeIn 2s ease;
+}
+
+.phrase-acroche p {
+    color: var(--blanc);
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.4;
+    opacity: 0.9;
+    text-shadow: 2px 2px 4px rgba(0,0,0,1.5);
+}
+
+/* Animation douce */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-8px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+
+/* Icône panier */
+.icone-panier {
+    position: relative;
+    cursor: pointer;
+    color: var(--blanc);
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+}
+.icone-panier:hover {
+    transform: scale(1.2) rotate(-10deg);
+}
+.compteur-panier {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: var(--rose-principal);
+    color: var(--blanc);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+/* Particules flottantes (PDF, bulles) */
+.particule {
+    position: absolute;
+    width: 60px;
+    height: 80px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    animation: floatPDF 10s infinite ease-in-out;
+    opacity: 0.9;
+    pointer-events: none;
+}
+.particule::after {
+    content: "Histoires";
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #ee213f;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+@keyframes floatPDF {
+    0%, 100% { transform: translateY(0) rotate(var(--r)); }
+    50% { transform: translateY(-20px) rotate(calc(var(--r) + 5deg)); }
+}
+
+/* Section hero (bannière principale) */
+.hero {
+    background: linear-gradient(rgba(135, 206, 235, 0.8), rgba(255, 182, 193, 0.8)), url('https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+    background-position: center;
+    padding: 5rem 5%;
+    text-align: center;
+    color: var(--blanc);
+}
+
+/* Titre principal de la section hero */
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-shadow: 5px 2px 4px rgba(0,0,0,0.5);
+}
+
+/* Paragraphe de la section hero */
+.hero p {
+    font-family: 'Arial Black';
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto 2rem;
+}
+
+/* Style de base des boutons */
+.bouton {
+    display: inline-block;
+    background-color: var(--rose-principal);
+    color: var(--blanc);
+    padding: 0.8rem 1.5rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: var(--transition);
+    border: none;
+    cursor: pointer;
+}
+
+/* Effet au survol des boutons */
+.bouton:hover {
+    background-color: var(--blanc);
+    color: var(--rose-principal);
+    transform: translateY(-3px);
+    box-shadow: 5px 5px 4px rgba(0,0,0,0.5);
+}
+
+/* Section du carrousel */
+.section-carrousel {
+    padding: 4rem 5%;
+    background-color: var(--blanc);
+}
+
+/* Titre de section */
+.titre-section {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--texte-fonce);
+    font-size: 2rem;
+}
+
+/* Conteneur du carrousel */
+.carrousel {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Conteneur des éléments du carrousel */
+.conteneur-carrousel {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+/* Élément individuel du carrousel */
+.element-carrousel {
+    min-width: 100%;
+    padding: 0 1rem;
+}
+
+/* Navigation du carrousel */
+.nav-carrousel {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+/* Points de navigation du carrousel */
+.point-carrousel {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--texte-clair);
+    margin: 0 5px;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+/* Point de navigation actif */
+.point-carrousel.actif {
+    background-color: var(--bleu-principal);
+}
+
+/* Section des produits */
+.section-produits {
+    padding: 4rem 5%;
+    background-color: var(--rose-clair);
+}
+
+/* Grille des produits */
+.grille-produits {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Carte de produit individuelle */
+.carte-produit {
+    background-color: var(--blanc);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: var(--ombre);
+    transition: var(--transition);
+}
+
+/* Effet au survol des cartes produit */
+.carte-produit:hover {
+    transform: translateY(-10px);
+}
+
+/* Image du produit */
+.image-produit {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Informations du produit */
+.info-produit {
+    padding: 1.5rem;
+}
+
+/* Titre du produit */
+.titre-produit {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: var(--texte-fonce);
+}
+
+/* Conteneur du prix */
+.prix-produit {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+/* Prix actuel */
+.prix-actuel {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--rose-principal);
+    margin-right: 0.5rem;
+}
+
+/* Ancien prix barré */
+.ancien-prix {
+    font-size: 1rem;
+    color: var(--texte-clair);
+    text-decoration: line-through;
+}
+
+/* Actions sur le produit */
+.actions-produit {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Bouton d'aperçu */
+.bouton-apercu {
+    background-color: var(--bleu-principal);
+    color: var(--blanc);
+}
+
+/* Bouton d'ajout au panier */
+.bouton-ajouter {
+    background-color: var(--rose-principal);
+    color: var(--blanc);
+}
+
+/* Overlay du panier (arrière-plan sombre) */
+.overlay-panier {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 200;
+    display: none;
+}
+
+/* Panier latéral */
+.panier-lateral {
+    position: fixed;
+    top: 0;
+    right: -400px;
+    width: 380px;
+    height: 100%;
+    background-color: var(--blanc);
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 300;
+    transition: var(--transition);
+    padding: 2rem;
+    overflow-y: auto;
+}
+
+/* Panier latéral actif (ouvert) */
+.panier-lateral.actif {
+    right: 0;
+}
+
+/* En-tête du panier */
+.en-tete-panier {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+/* Titre du panier */
+.titre-panier {
+    font-size: 1.5rem;
+    color: var(--texte-fonce);
+}
+
+/* Bouton de fermeture du panier */
+.fermer-panier {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--texte-clair);
+}
+
+/* Conteneur des articles du panier */
+.articles-panier {
+    margin-bottom: 2rem;
+}
+
+/* Article individuel dans le panier */
+.article-panier {
+    display: flex;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+/* Image de l'article dans le panier */
+.image-article-panier {
+    width: 80px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+
+/* Détails de l'article dans le panier */
+.details-article-panier {
+    flex: 1;
+}
+
+/* Titre de l'article dans le panier */
+.titre-article-panier {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+/* Prix de l'article dans le panier */
+.prix-article-panier {
+    color: var(--rose-principal);
+    font-weight: 600;
+}
+
+/* Bouton de suppression d'article */
+.supprimer-article {
+    background: none;
+    border: none;
+    color: var(--texte-clair);
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+/* Total du panier */
+.total-panier {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    padding-top: 1rem;
+    border-top: 2px solid #eee;
+}
+
+/* Bouton de validation du panier */
+.bouton-valider {
+    width: 100%;
+    background-color: var(--bleu-principal);
+    color: var(--blanc);
+    padding: 1rem;
+    font-size: 1.1rem;
+}
+
+/* Page produit individuelle */
+.page-produit {
+    display: none;
+    padding: 4rem 5%;
+    background-color: var(--blanc);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Lien de retour à la boutique */
+.retour-boutique {
+    display: inline-block;
+    margin-bottom: 2rem;
+    color: var(--bleu-principal);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Détails du produit sur la page produit */
+.details-produit {
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+
+/* Image du produit sur la page produit */
+.image-page-produit {
+    flex: 1;
+    max-width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: var(--ombre);
+}
+
+/* Image dans la page produit */
+.image-page-produit img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Informations du produit sur la page produit */
+.info-page-produit {
+    flex: 2;
+}
+
+/* Titre du produit sur la page produit */
+.titre-page-produit {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--texte-fonce);
+}
+
+/* Description du produit sur la page produit */
+.description-page-produit {
+    margin-bottom: 1.5rem;
+    color: var(--texte-clair);
+    line-height: 1.8;
+}
+
+/* Prix du produit sur la page produit */
+.prix-page-produit {
+    margin-bottom: 2rem;
+}
+
+/* Actions sur la page produit */
+.actions-page-produit {
+    display: flex;
+    gap: 1rem;
+}
+
+/* Section d'aperçu (premier chapitre) */
+.section-apercu {
+    margin-top: 3rem;
+}
+
+/* Titre de la section d'aperçu */
+.titre-apercu {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: var(--texte-fonce);
+}
+
+/* Contenu du chapitre */
+.contenu-chapitre {
+    background-color: var(--bleu-clair);
+    padding: 2rem;
+    border-radius: 10px;
+    line-height: 1.8;
+}
+
+/* Pied de page */
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--texte-fonce);
+    color: var(--blanc);
+    padding: 3rem 5%;
+    box-shadow: var(--ombre);
+
+}
+
+/* Contenu du pied de page */
+.contenu-pied {
+    max-width: 1200px;
+}
+
+
+
+
+/* Copyright */
+.copyright {
+    color: #aaa;
+    font-size: 0.9rem;
+}
+
+.paiement-info{
+    line-height: 50px;
+}
+
+
+.moyens-paiement{
+    display: flex;
+    column-gap: 10px;
+}
+
+.moyens-paiement > img{
+    border-radius: 20px;
+}
+
+/* Media queries pour le responsive design */
+@media (max-width: 768px) {
+    /* Adaptation de l'en-tête pour mobile */
+    header{
+        height: 130px;
+        padding: 10px   5%;
+    }
+    .phrase-acroche  > p{
+        text-shadow: 2px 2px 4px rgba(0,0,0,1.5);
+        position: absolute;
+        bottom: 0;
+        left: 30px;
+        margin-bottom: 20px;
+
+    }
+
+    /* Adaptation du titre hero pour mobile */
+    .hero h1 {
+        text-shadow: 2px 2px 4px rgba(0,0,0,1.5);
+        font-size: 2.2rem;
+    }
+
+    /* Adaptation de la grille de produits pour mobile */
+    .grille-produits {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+
+    /* Adaptation du panier pour mobile */
+    .panier-lateral {
+        width: 70%;
+        right: -100%;
+    }
+
+    /* Adaptation des détails produit pour mobile */
+    .details-produit {
+        flex-direction: column;
+    }
+
+    .image-page-produit {
+        max-width: 100%;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+}
