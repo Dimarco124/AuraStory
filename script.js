@@ -9,7 +9,7 @@ const produits = [
         ancienPrix: "4198FCFA",
         chapitre: `
             <h1>Chapitre 1 – Le Début du Merdier</h1>
-        
+
             <p>Je m'appelle  <span class="highlight">Malik.</span>.</p>
             
             <p>J'ai 27 ans.</p>
@@ -999,26 +999,31 @@ overlayPanier.addEventListener('click', function() {
     document.body.style.overflow = 'auto';
 });
 
-// Validation du panier - Ouvrir WhatsApp avec les détails de la commande
+// ✅ Validation du panier - Ouvrir WhatsApp avec les détails de la commande
 boutonValider.addEventListener('click', function() {
     if (panier.length === 0) return;
-    
-    let message = "Bonjour, je souhaite acheter les PDFs suivants :%0A";
+
+    let message = "Bonjour 👋,%0AJe souhaite acheter les PDFs suivants :%0A%0A";
     let total = 0;
-    
+
     panier.forEach(item => {
-        const valeurPrix = parseFloat(item.prix.replace('FCFA', '').replace(',', '.'));
+        const valeurPrix = parseFloat(
+            item.prix.replace(/[^\d.,]/g, '').replace(',', '.')
+        );
         const totalArticle = valeurPrix * item.quantite;
         total += totalArticle;
-        
-        message += `- ${item.titre} (${item.quantite}x) : ${item.prix}%0A`;
+
+        message += `• ${item.titre} (${item.quantite}x) - ${item.prix}%0A`;
     });
-    
-    message += `%0ATotal : ${total.toFixed(2).replace('.', ',')}FCFA%0A%0AMerci !`;
-    
-    const urlWhatsApp = `https://wa.me/?text=${message}`;
+
+    message += `%0A🧾 *Total :* ${total.toFixed(2).replace('.', ',')} FCFA%0A%0AMerci 🙏`;
+
+    // 👉 Mets ton numéro WhatsApp ici au format international sans "+"
+    const numeroWhatsApp = "2250554356019"; // Exemple : Côte d'Ivoire
+    const urlWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${message}`;
+
     window.open(urlWhatsApp, '_blank');
-});
+})
 
 // Fonctionnalité du carrousel
 function configurerCarrousel() {
@@ -1068,4 +1073,5 @@ for (let i = 0; i < 5; i++) {
     part.style.setProperty("--r", `${Math.random() * 30 - 15}deg`);
     part.style.animationDelay = `${Math.random() * 6}s`;
     header.appendChild(part);
+
 }
