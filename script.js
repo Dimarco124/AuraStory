@@ -779,6 +779,76 @@ const produits = [
             Parce que c'est comme ça que mon histoire a commencé.
             </p>
         `
+    },
+    {
+        id: 7,
+        titre: "LA LETTRE QUI N'A PAS VIEILLI",
+        description: "Koffi, un étudiant ivoirien au bord de l'échec, trouve par hasard une vieille lettre d'amour de 1952 dans un livre de bibliothèque. Écrite par Jean à sa bien-aimée Akissi, cette lettre promet un amour éternel malgré la distance.Touché par ces mots, Koffi reprend espoir et entame une quête pour découvrir la fin de cette histoire d'amour. Sa recherche le mène à Akissi, maintenant une vieille dame, qui a cru toute sa vie que Jean l'avait oubliée.",
+        image: "lettre.png",
+        prixActuel: "1050FCFA",
+        ancienPrix: "3980FCFA",
+        chapitre: `
+        <p>Je m'appelle <span class="highlight">Koffi</span>, et ce jour-là, ma vie ressemblait à un sac de riz éventré. Tout fuyait entre mes doigts, tout partait en vrille. Je me souviens, c'était un mardi après-midi, et <span class="highlight">Abidjan</span> transpirait sous une chaleur à faire fondre les âmes les plus solides. Moi, j'étais assis dans un coin de la <span class="highlight">bibliothèque universitaire</span>, le front collé contre la vitre chaude, à regarder la vie défiler dehors sans moi.</p>
+
+        <p>Dans ma poche, la <span class="highlight">lettre de renvoi de l'université</span> me brûlait la peau. "Manque d'assiduité, résultats insuffisants..." Les mots dansaient devant mes yeux. Trois ans d'études qui s'envolaient en fumée. Trois ans à me battre contre les nuits blanches, les petits boulots éreintants, la honte de toujours demander de l'argent à <span class="highlight">ma mère</span>, veuve depuis dix ans.</p>
+        
+        <p>"<span class="highlight">Koffi</span>, mon fils, tu es notre fierté," me disait-elle toujours. Mais aujourd'hui, quelle fierté ? J'étais un arbre qui se desséchait, un tambour dont la peau se fendait.</p>
+        
+        <p>Mon téléphone vibra. Encore <span class="highlight">Maman</span>. Je laissai sonner. Comment lui avouer que son investissement - ses sacrifices, ses nuits à coudre des pagnes pour payer mes frais - avait produit un raté ?</p>
+        
+        <p>Je me levai, les jambes lourdes. Il me fallait de l'air, fuir cet endroit qui me rappelait mon échec. Mes pas me portèrent vers la section des vieux ouvrages, un coin poussiéreux où personne ne venait jamais. Là, au moins, je pouvais pleurer en paix.</p>
+        
+        <p>C'est alors que mon regard tomba sur un livre ancien, mal rangé, qui dépassait des autres. "<span class="highlight">Les Sagesses de nos Ancêtres</span>" - l'ouvrage avait la couverture décolorée, le cuir craquelé. Par curiosité morose, je le sortis. Et c'est là que la magie opéra.</p>
+        
+        <p>Une <span class="highlight">enveloppe jaunie</span> glissa du livre et vint se poser à mes pieds, comme offerte par les esprits.</p>
+        
+        <p>Je me baissai, le cœur inexplicablement battant. L'<span class="highlight">enveloppe</span> était adressée à "<span class="highlight">Mademoiselle Akissi</span>", en une écriture élégante et ferme. Le timbre datait de <span class="highlight">1952</span>. Soixante-dix ans que cette <span class="highlight">lettre</span> attendait ici ?</p>
+        
+        <p>Je regardai autour de moi. Personne. Seulement la poussière qui dansait dans les rayons de soleil. Comme poussé par une force invisible, je m'assis dans le fauteuil le plus proche et, avec des doigts tremblants, je sortis la <span class="highlight">lettre</span>.</p>
+        
+        <div class="letter">
+        <p>"<span class="highlight">Ma chère Akissi</span>,</p>
+        
+        <p>Si cette <span class="highlight">lettre</span> te parvient, c'est que le destin aura été plus fort que les obstacles qu'on dresse entre nous. On me dit que je suis fou d'écrire ces mots, que notre amour est impossible comme vouloir arrêter la pluie avec les mains. Mais je préfère être fou pour toi que sage sans toi.</p>
+        
+        <p>Demain, je pars pour la <span class="highlight">France</span>. Mon père exige que j'y poursuive mes études. Il dit qu'un homme de ma condition ne peut s'abaisser à aimer une fille du peuple. Mais que sait-il de l'amour, celui qui n'a jamais senti son cœur battre au rythme d'un autre cœur ?</p>
+        
+        <p>Je fais le serment aujourd'hui devant Dieu et devant les esprits de nos ancêtres : <span class="highlight">je reviendrai</span>. Et quand je reviendrai, ce ne sera plus le jeune homme sans ressources que tu connais. Je serai un homme digne de toi, capable de te construire un avenir radieux.</p>
+        
+        <p><span class="highlight">Attends-moi</span>, je t'en supplie. Même si les saisons doivent défiler dix fois, même si les rivières doivent changer de cours, <span class="highlight">attends-moi</span>. Notre amour est comme le baobab : ses racines sont déjà si profondes qu'aucune tempête ne pourra l'abattre.</p>
+        
+        <p>Je laisse cette <span class="highlight">lettre</span> chez ton frère, le seul qui comprend notre amour. Il saura te la remettre en temps voulu.</p>
+        
+        <p>Ton amour pour l'éternité,<br>
+        <span class="highlight">Jean</span>"</p>
+        </div>
+        
+        <p>Je relus la <span class="highlight">lettre</span> trois fois. Quatre fois. Chaque mot résonnait en moi comme un tambour dans la nuit. L'amour impossible. Le sacrifice. L'espoir qui brille dans les ténèbres.</p>
+        
+        <p>Et soudain, je me vis dans le reflet de la vitre. <span class="highlight">Koffi</span>, vingt-trois ans, prêt à abandonner au premier obstacle. <span class="highlight">Koffi</span>, qui se plaignait alors que cet homme, <span class="highlight">Jean</span>, partait affronter l'inconnu pour l'amour d'une femme.</p>
+        
+        <p>Qu'est-ce qui m'arrivait ? Une chaleur étrange m'envahit, comme si je venais de boire une potion magique. Mes épaules se redressèrent. Mon regard cessa de fuir le miroir.</p>
+        
+        <p>"<span class="highlight">Attends-moi</span>, je t'en supplie." Les mots de <span class="highlight">Jean</span> résonnaient dans ma tête comme une mélodie obsédante. Mais qui attendait <span class="highlight">Koffi</span> ? Personne. Parce que <span class="highlight">Koffi</span> n'avait jamais donné à personne une raison de l'attendre.</p>
+        
+        <p>Je repliai soigneusement la <span class="highlight">lettre</span>, la rangeant dans mon sac comme un trésor. La <span class="highlight">lettre de renvoi de l'université</span> ? Je la sortis de ma poche, la regardai longuement, puis la déchirai en menus morceaux.</p>
+        
+        <p>Non. Ce n'était pas fini. Pas encore.</p>
+        
+        <p>En sortant de la <span class="highlight">bibliothèque</span>, le soleil me parut moins agressif, la chaleur moins lourde. Je sortis mon téléphone et composai le numéro de <span class="highlight">ma mère</span>.</p>
+        
+        <p>"Allô, <span class="highlight">Maman</span> ?"</p>
+        
+        <p>"<span class="highlight">Koffi</span> ! Enfin ! Je m'inquiétais, mon fils."</p>
+        
+        <p>"Ne t'inquiète plus, <span class="highlight">Maman</span>. Tout va changer. Je te promets."</p>
+        
+        <p>Je raccrochai, un sourire aux lèvres. Je ne savais pas encore comment, mais je le sentais dans mes os : cette <span class="highlight">lettre</span> n'était pas tombée entre mes mains par hasard. Elle était une main tendue du passé, une clé offerte pour ouvrir les portes de mon avenir.</p>
+        
+        <p>Et moi, <span class="highlight">Koffi</span>, j'étais prêt à me battre. Comme <span class="highlight">Jean</span> s'était battu. Comme tant d'autres avant moi s'étaient battus pour leurs rêves.</p>
+        
+        <p>La suite ? Elle s'écrirait jour après jour. Mais pour la première fois depuis longtemps, j'avais hâte de tourner la page.</p>
+    `
     }
 ];
 
@@ -1075,3 +1145,4 @@ for (let i = 0; i < 5; i++) {
     header.appendChild(part);
 
 }
+
