@@ -785,7 +785,7 @@ const produits = [
         titre: "LA LETTRE QUI N'A PAS VIEILLI",
         description: "Koffi, un étudiant ivoirien au bord de l'échec, trouve par hasard une vieille lettre d'amour de 1952 dans un livre de bibliothèque. Écrite par Jean à sa bien-aimée Akissi, cette lettre promet un amour éternel malgré la distance.Touché par ces mots, Koffi reprend espoir et entame une quête pour découvrir la fin de cette histoire d'amour. Sa recherche le mène à Akissi, maintenant une vieille dame, qui a cru toute sa vie que Jean l'avait oubliée.",
         image: "lettre.png",
-        prixActuel: "1050FCFA",
+        prixActuel: "1435FCFA",
         ancienPrix: "3980FCFA",
         chapitre: `
         <p>Je m'appelle <span class="highlight">Koffi</span>, et ce jour-là, ma vie ressemblait à un sac de riz éventré. Tout fuyait entre mes doigts, tout partait en vrille. Je me souviens, c'était un mardi après-midi, et <span class="highlight">Abidjan</span> transpirait sous une chaleur à faire fondre les âmes les plus solides. Moi, j'étais assis dans un coin de la <span class="highlight">bibliothèque universitaire</span>, le front collé contre la vitre chaude, à regarder la vie défiler dehors sans moi.</p>
@@ -1145,4 +1145,5 @@ for (let i = 0; i < 5; i++) {
     header.appendChild(part);
 
 }
+
 
