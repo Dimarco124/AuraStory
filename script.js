@@ -806,7 +806,7 @@ const produits = [
         
         <p>Je regardai autour de moi. Personne. Seulement la poussière qui dansait dans les rayons de soleil. Comme poussé par une force invisible, je m'assis dans le fauteuil le plus proche et, avec des doigts tremblants, je sortis la <span class="highlight">lettre</span>.</p>
         
-        <div class="letter">
+        
         <p>"<span class="highlight">Ma chère Akissi</span>,</p>
         
         <p>Si cette <span class="highlight">lettre</span> te parvient, c'est que le destin aura été plus fort que les obstacles qu'on dresse entre nous. On me dit que je suis fou d'écrire ces mots, que notre amour est impossible comme vouloir arrêter la pluie avec les mains. Mais je préfère être fou pour toi que sage sans toi.</p>
@@ -821,7 +821,7 @@ const produits = [
         
         <p>Ton amour pour l'éternité,<br>
         <span class="highlight">Jean</span>"</p>
-        </div>
+      
         
         <p>Je relus la <span class="highlight">lettre</span> trois fois. Quatre fois. Chaque mot résonnait en moi comme un tambour dans la nuit. L'amour impossible. Le sacrifice. L'espoir qui brille dans les ténèbres.</p>
         
@@ -1230,6 +1230,7 @@ for (let i = 0; i < 5; i++) {
     header.appendChild(part);
 
 }
+
 
 
 
