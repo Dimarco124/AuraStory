@@ -849,6 +849,91 @@ const produits = [
         
         <p>La suite ? Elle s'écrirait jour après jour. Mais pour la première fois depuis longtemps, j'avais hâte de tourner la page.</p>
     `
+    },
+    {
+        id: 8,
+        titre: "Le Serment d'Abidjan",
+        description: "Kévin, 32 ans, revient à Abidjan après 8 ans d'absence en France. Il veut reconquérir Akissi, son premier amour qu'il a abandonné pour poursuivre sa carrière. Mais la jeune étudiante d'autrefois est devenue une femme d'affaires accomplie, méfiante et indépendante",
+        image: "serment.png",
+        prixActuel: "1210FCFA",
+        ancienPrix: "4300FCFA",
+        chapitre: `
+        <p><span class="highlight">Mon premier pas sur le sol d'<span class="place">Abidjan</span></span>, ça a été comme recevoir une gifle humide. La chaleur m'a enveloppé d'un coup, cette chaleur ivoirienne qui colle à la peau et qui parle directement au sang. <span class="highlight">Huit ans</span>. Huit longues années depuis que j'avais quitté cette terre qui m'a vu naître. L'aéroport <span class="place">Félix-Houphouët-Boigny</span> avait changé, moderne maintenant, tout brillant, mais l'âme, elle, était restée la même.</p>
+
+        <p>"Bienvenue à la maison, mec," j'ai murmuré pour moi-même en tirant ma valise.</p>
+
+        <p>Partout autour de moi, c'était la vie, la vraie. Des gens qui s'appelaient, qui riaient, qui se disputaient en <span class="highlight">nouchi</span>, cette langue qui danse entre le français et nos racines. "<span class="highlight">Walahiii</span>, tu as grandi comme ça ?" lance une mère à son fils qui baisse les yeux, gêné. "Ça va chauffer aujourd'hui, hein !" crie un taxi en klaxonnant.</p>
+
+        <p>Chaque mot, chaque son me ramenait huit ans en arrière. À l'époque où j'étais encore <span class="highlight character">Kévin</span>, le jeune étudiant amoureux qui croyait que l'Europe serait la solution à tous ses problèmes. Aujourd'hui, à trente-deux ans, je revenais les mains pleines mais le cœur léger comme une plume vide. Non, en fait, mon cœur était lourd. Lourd d'un regret qui m'avait suivi pendant toutes ces années : <span class="highlight character">Akissi</span>.</p>
+
+        <p><span class="highlight character">Akissi</span>. Juste prononcer son nom dans ma tête faisait monter en moi un mélange de <span class="emotion">douceur et d'amertume</span>. La dernière fois que je l'avais vue, c'était sur ce même tarmac, mais en partance. Elle pleurait, moi je lui faisais des promesses que je n'ai pas tenues. "Je reviendrai, ma belle. Je vais juste faire mon master en France et je reviens. Un an, deux maximum."</p>
+
+        <p><span class="emotion">Mensonges</span>. Tous des mensonges que je me racontais à moi-même pour avoir le courage de monter dans cet avion.</p>
+
+
+        <p>La douane passe vite. Mon passeport français fait sourire l'agent. "Ah, <span class="highlight">la diaspora est de retour</span>," dit-il avec un clin d'œil. Je hoche la tête, incapable de trouver les mots. Comment lui expliquer que je ne suis pas vraiment revenu par choix, mais poussé par un <span class="emotion">besoin viscéral</span>, comme si un fil invisible me tirait vers <span class="place">Abidjan</span> ?</p>
+
+        <p>Dehors, le chaos organisé des taxis oranges et jaunes m'accueille. Les conducteurs se bousculent. "Où tu vas, frérot ? <span class="place">Plateau</span> ? <span class="place">Cocody</span> ? <span class="place">Marcory</span> ?" Je prends le premier venu. "<span class="place">Cocody</span>," je dis simplement.</p>
+
+        <p>Pendant le trajet, je colle mon front à la vitre. <span class="place">Abidjan</span> a changé, c'est vrai. De nouveaux buildings, des routes refaites, mais l'essence de la ville est intacte. Cette énergie folle, ce mélange d'élégance et de débrouille, cette façon de vivre à cent à l'heure. Nous roulons sur le boulevard <span class="place">Valéry Giscard d'Estaing</span>, et soudain, une odeur familière me frappe : celle des <span class="highlight food">allocos</span> qui grillent sur un brasero. Mon estomac se serre. <span class="character">Akissi</span> adorait les <span class="food">allocos</span> avec du poisson braisé. Le vendredi soir, après les cours, c'était notre rituel.</p>
+
+        <p>"Arrêtez ici," je dis au chauffeur devant un maquis que je reconnais. "<span class="place">Chez Aïssata</span>" est toujours là, miraculeusement inchangé. Les mêmes nappes en wax usées, les mêmes chaises en plastique, la même télé accrochée au mur diffusant un match de football.</p>
+
+        <p>Je m'installe à une table au fond. La serveuse arrive, une jeune femme souriante. "Bonjour, patron. Qu'est-ce que je vous sers ?"</p>
+
+        <p>"<span class="food">Attiéké</span> avec poisson braisé et <span class="food">allocos</span>. Et un <span class="food">bissap</span> bien frais."</p>
+
+        <p>Elle note et part. Je regarde autour de moi. Rien n'a changé, sauf moi. En France, j'ai réussi. Un bon poste dans une boîte d'informatique, un appartement à Paris, une vie confortable. Mais chaque nuit, en fermant les yeux, c'était le visage d'<span class="character">Akissi</span> que je voyais. Ses grands yeux rieurs, sa façon de pencher la tête quand elle réfléchissait, ses mains si douces qui savaient si bien apaiser mes angoisses.</p>
+
+
+        <p>Mon téléphone vibre. Un message de ma mère, toujours en vie après toutes ces années. "Tu es arrivé, mon fils ? Fais attention à toi, hein. <span class="place">Abidjan</span> a changé." J'esquisse un sourire. Les mères ivoiriennes, elles ne changent jamais.</p>
+
+        <p>Ma commande arrive. Le premier morceau d'<span class="food">attiéké</span> me ramène instantanément vingt ans en arrière. Les saveurs explosent dans ma bouche, chaque grain de manioc me parle de mon enfance, de mon adolescence, de mon premier amour.</p>
+
+        <p><span class="character">Akissi</span>. Je devrais plutôt dire Madame <span class="character">Akissi Koffi</span> maintenant. C'est ce que j'ai appris par des amis communs. Elle s'est mariée deux ans après mon départ. Puis divorcée trois ans plus tard. Aujourd'hui, elle dirige sa propre agence de communication. Réussite éclatante. La petite étudiante timide en sociologie est devenue une femme d'affaires respectée.</p>
+
+        <p>Est-ce pour elle que je suis revenu ? La question me tourne dans la tête depuis des mois. Au début, je me suis dit que c'était pour le pays, pour retrouver mes racines. Mais au fond, je sais. Je sais que c'est elle. Cette idée folle de tout recommencer, de reprendre ce que j'ai brisé il y a huit ans.</p>
+
+        <p>Je termine mon repas et paie. En sortant, mon téléphone sonne. C'est <span class="character">Serge</span>, mon vieil ami d'enfance, le seul à qui j'ai dit que je revenais.</p>
+
+        <p>"Alors, le Parisien, tu as survécu au choc ?" sa voix rieuse résonne dans l'appareil.</p>
+
+        <p>"Toujours en vie, vieux. Mais <span class="place">Abidjan</span> m'a manqué plus que je ne le pensais."</p>
+
+      
+
+        <p>"On se voit ce soir ? Je t'emmène dans un nouveau maquis à <span class="place">Yopougon</span>. Tu vas voir, ça a changé !"</p>
+
+        <p>"Volontiers. Mais d'abord, j'ai une question..."</p>
+
+        <p>Je sens <span class="character">Serge</span> se raidir au bout du fil. Il sait ce qui vient.</p>
+
+        <p>"Elle habite toujours le même appartement ? À <span class="place">Cocody Les Deux-Plateaux</span> ?"</p>
+
+        <p>Un silence. Puis un soupir. "Oui, <span class="character">Kévin</span>. Mais écoute, tu devrais peut-être réfléchir avant de foncer. <span class="character">Akissi</span>... elle n'est plus la même. Elle a vécu des choses. Toi aussi d'ailleurs."</p>
+
+        <p>"Je sais. Mais je dois la voir."</p>
+
+        <p>"Bon. Mais pas aujourd'hui, hein ? Laisse-toi le temps de reprendre tes marques."</p>
+
+        <p>On raccroche. Je marche dans les rues de <span class="place">Cocody</span>, respirant à pleins poumons cet air chargé d'humidité et de souvenirs. Je passe devant l'université où nous nous sommes rencontrés. C'était en amphi de sociologie. Elle était assise devant moi, et je n'arrivais pas à détacher mes yeux de sa nuque. Quand elle s'était retournée pour me demander un stylo, j'avais su que j'étais perdu.</p>
+
+        <p><span class="highlight">Huit ans</span>. Est-ce qu'on peut vraiment revenir après huit ans ? Est-ce que l'amour peut survivre à tant de silence, à tant de distance ?</p>
+
+        <p>Je trouve finalement l'appartement que j'ai loué pour un mois. Un bel appartement moderne avec vue sur la lagune. En ouvrant mes valises, je tombe sur une vieille photo cachée dans un livre. Nous sommes ensemble, <span class="character">Akissi</span> et moi, sur la plage de <span class="place">Grand-Bassam</span>. Elle rit, accrochée à mon épaule. Moi, je regarde l'objectif avec cette assurance de jeunesse qui croyait que la vie nous sourirait toujours.</p>
+
+    
+
+        <p>Ce soir-là, chez <span class="character">Serge</span>, entre les brochettes et les bouteilles de <span class="food">Flag</span>, je me laisse bercer par la musique <span class="highlight">coupé-décalé</span>. Les amis de <span class="character">Serge</span> me questionnent sur la France, sur la vie là-bas. Je réponds poliment, mais mon esprit est ailleurs. Il est avec une femme qui, à quelques kilomètres de là, ignore que celui qui a brisé son cœur est de retour.</p>
+
+        <p>"Tu es sûr de vouloir faire ça ?" me demande <span class="character">Serge</span> alors que nous prenons un dernier verre.</p>
+
+        <p>"Je n'ai jamais été aussi sûr de rien de ma vie," je réponds en vidant mon verre. "Je l'ai quittée une fois. Je ne recommencerai pas cette erreur."</p>
+
+        <p>La nuit tombe sur <span class="place">Abidjan</span>, et avec elle, mes doutes s'estompent. Demain, j'irai la voir. Demain, j'affronterai mon passé. Demain, je dirai à <span class="character">Akissi</span> que je suis revenu pour elle.</p>
+
+        <p>Mais en regardant les lumières de la ville se refléter dans la lagune, une question me hante : <span class="emotion">est-ce qu'elle voudra encore de moi</span> ?</p>
+    `
     }
 ];
 
@@ -1145,5 +1230,6 @@ for (let i = 0; i < 5; i++) {
     header.appendChild(part);
 
 }
+
 
 
