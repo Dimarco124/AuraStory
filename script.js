@@ -867,10 +867,7 @@ const produits = [
         <p>Chaque mot, chaque son me ramenait huit ans en arrière. À l'époque où j'étais encore <span class="highlight character">Kévin</span>, le jeune étudiant amoureux qui croyait que l'Europe serait la solution à tous ses problèmes. Aujourd'hui, à trente-deux ans, je revenais les mains pleines mais le cœur léger comme une plume vide. Non, en fait, mon cœur était lourd. Lourd d'un regret qui m'avait suivi pendant toutes ces années : <span class="highlight character">Akissi</span>.</p>
 
         <p><span class="highlight character">Akissi</span>. Juste prononcer son nom dans ma tête faisait monter en moi un mélange de <span class="emotion">douceur et d'amertume</span>. La dernière fois que je l'avais vue, c'était sur ce même tarmac, mais en partance. Elle pleurait, moi je lui faisais des promesses que je n'ai pas tenues. "Je reviendrai, ma belle. Je vais juste faire mon master en France et je reviens. Un an, deux maximum."</p>
-
         <p><span class="emotion">Mensonges</span>. Tous des mensonges que je me racontais à moi-même pour avoir le courage de monter dans cet avion.</p>
-
-
         <p>La douane passe vite. Mon passeport français fait sourire l'agent. "Ah, <span class="highlight">la diaspora est de retour</span>," dit-il avec un clin d'œil. Je hoche la tête, incapable de trouver les mots. Comment lui expliquer que je ne suis pas vraiment revenu par choix, mais poussé par un <span class="emotion">besoin viscéral</span>, comme si un fil invisible me tirait vers <span class="place">Abidjan</span> ?</p>
 
         <p>Dehors, le chaos organisé des taxis oranges et jaunes m'accueille. Les conducteurs se bousculent. "Où tu vas, frérot ? <span class="place">Plateau</span> ? <span class="place">Cocody</span> ? <span class="place">Marcory</span> ?" Je prends le premier venu. "<span class="place">Cocody</span>," je dis simplement.</p>
@@ -885,7 +882,6 @@ const produits = [
 
         <p>Elle note et part. Je regarde autour de moi. Rien n'a changé, sauf moi. En France, j'ai réussi. Un bon poste dans une boîte d'informatique, un appartement à Paris, une vie confortable. Mais chaque nuit, en fermant les yeux, c'était le visage d'<span class="character">Akissi</span> que je voyais. Ses grands yeux rieurs, sa façon de pencher la tête quand elle réfléchissait, ses mains si douces qui savaient si bien apaiser mes angoisses.</p>
 
-
         <p>Mon téléphone vibre. Un message de ma mère, toujours en vie après toutes ces années. "Tu es arrivé, mon fils ? Fais attention à toi, hein. <span class="place">Abidjan</span> a changé." J'esquisse un sourire. Les mères ivoiriennes, elles ne changent jamais.</p>
 
         <p>Ma commande arrive. Le premier morceau d'<span class="food">attiéké</span> me ramène instantanément vingt ans en arrière. Les saveurs explosent dans ma bouche, chaque grain de manioc me parle de mon enfance, de mon adolescence, de mon premier amour.</p>
@@ -899,8 +895,6 @@ const produits = [
         <p>"Alors, le Parisien, tu as survécu au choc ?" sa voix rieuse résonne dans l'appareil.</p>
 
         <p>"Toujours en vie, vieux. Mais <span class="place">Abidjan</span> m'a manqué plus que je ne le pensais."</p>
-
-      
 
         <p>"On se voit ce soir ? Je t'emmène dans un nouveau maquis à <span class="place">Yopougon</span>. Tu vas voir, ça a changé !"</p>
 
@@ -922,7 +916,6 @@ const produits = [
 
         <p>Je trouve finalement l'appartement que j'ai loué pour un mois. Un bel appartement moderne avec vue sur la lagune. En ouvrant mes valises, je tombe sur une vieille photo cachée dans un livre. Nous sommes ensemble, <span class="character">Akissi</span> et moi, sur la plage de <span class="place">Grand-Bassam</span>. Elle rit, accrochée à mon épaule. Moi, je regarde l'objectif avec cette assurance de jeunesse qui croyait que la vie nous sourirait toujours.</p>
 
-    
 
         <p>Ce soir-là, chez <span class="character">Serge</span>, entre les brochettes et les bouteilles de <span class="food">Flag</span>, je me laisse bercer par la musique <span class="highlight">coupé-décalé</span>. Les amis de <span class="character">Serge</span> me questionnent sur la France, sur la vie là-bas. Je réponds poliment, mais mon esprit est ailleurs. Il est avec une femme qui, à quelques kilomètres de là, ignore que celui qui a brisé son cœur est de retour.</p>
 
@@ -1230,6 +1223,7 @@ for (let i = 0; i < 5; i++) {
     header.appendChild(part);
 
 }
+
 
 
 
