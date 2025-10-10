@@ -5,7 +5,7 @@ const produits = [
         titre: "REX² - L'Éveil des Cyborgs",
         description: "REX² - L'Éveil des Cyborgs est un thriller futuriste haletant qui se déroule dans les rues d'Abidjan, où la frontière entre l'humain et la machine devient de plus en plus floue. L'histoire suit Malik, un ancien livreur de pizza qui découvre qu'il est en réalité le 'Sujet 7' du Projet REX - un programme gouvernemental secret qui transforme des humains en agents dormants aux capacités surhumaines.",
         image: "REX66.png",
-        prixActuel: "1595FCFA",
+        prixActuel: "1195FCFA",
         ancienPrix: "4198FCFA",
         chapitre: `
             <h1>Chapitre 1 – Le Début du Merdier</h1>
@@ -151,8 +151,8 @@ const produits = [
         titre: "L'Odyssée des Clones",
         description: "L'Odyssée des Clones est un roman de science-fiction qui se déroule dans une Afrique futuriste en 2122. L'histoire suit Kévin, un adolescent qui découvre qu'il est un clone créé pour servir de remplacement à son 'original', le riche Kais Diomandé.Refusant ce destin, Kévin entame une quête périlleuse pour découvrir la vérité sur ses origines, traqué par la puissante Fondation qui l'a créé. Il devra s'allier à ses amis et à Kais lui-même pour démanteler un système qui joue avec l'essence même de l'humanité.",
         image: "CLONE.png",
-        prixActuel: "2035FCFA",
-        ancienPrix: "3980FCFA",
+        prixActuel: "1035FCFA",
+        ancienPrix: "3780FCFA",
         chapitre: `
             <h1>Chapitre 1 : Le jour où mon monde a fissillé</h1>
     
@@ -251,7 +251,7 @@ const produits = [
         titre: "Les Portes de l’Aube",
         description: "Les Portes de l’Aube est un roman d’aventure et de fantasy qui raconte l’histoire de Kévin Gnamien, un jeune mécanicien d’Abidjan dont la vie ordinaire bascule le jour où sept portes mystérieuses apparaissent dans le ciel.",
         image: "PORTE AUBE.png",
-        prixActuel: "1800FCFA",
+        prixActuel: "950FCFA",
         ancienPrix: "4900FCFA",
         chapitre: `
             <p>Moi, c'est <span class="highlight">Kévin</span>. <span class="highlight">Kévin Gnamien</span>, pour te servir. J'étais juste un gars normal, tu vois ? Un <span class="highlight">Abidjanais</span> comme tant d'autres. Mon monde, c'était le bitume chaud de <span class="highlight">Yopougon</span>, l'odeur des <span class="highlight">allocos</span> au feu de bois le soir, et le bruit des mamies qui se disputaient devant le <span class="highlight">maquis</span>. La vie était simple. Je travaillais comme <span class="highlight">mécanicien</span> dans l'atelier de mon oncle, pas loin du <span class="highlight">marché Sococé</span>. Le plus grand mystère de ma journée, c'était de savoir si le client allait payer sa réparation ou trouver une excuse.</p>
@@ -314,7 +314,7 @@ const produits = [
         titre: "Fragments d’Éclats",
         description: "Yann, surnommé Nounours, est un jeune Ivoirien passionné d'informatique qui travaille dans un cybercafé de Treichville. Rêveur et persévérant, il nourrit l'ambition de créer TchokoMarket, une plateforme de vente en ligne pour son quartier. Sa vie routineire bascule quand il rencontre Maïa, une jeune femme mystérieuse dont la détermination le fascine.Peu à peu, Yann découvre que Maïa mène une enquête dangereuse sur la mort de son père, liée à un vaste réseau de corruption. Alors que leur relation se développe, Yann se retrouve entraîné dans une lutte où il devra utiliser ses compétences en hacking pour aider Maïa à affronter le Marionnettiste, un ennemi invisible qui manipule tout depuis l'ombre.Entre romance naissante et thriller technologique, Yann devra choisir entre ses rêves entrepreneuriaux et son engagement aux côtés de Maïa dans un combat qui pourrait tout changer.",
         image: "FRAGMENT ECLAT.png",
-        prixActuel: "2355FCFA",
+        prixActuel: "1155FCFA",
         ancienPrix: "6090FCFA",
         chapitre: `
             <h1>Chapitre 1: Le Quartier, le Début et les Rêves</h1>
@@ -1223,6 +1223,7 @@ for (let i = 0; i < 5; i++) {
     header.appendChild(part);
 
 }
+
 
 
 
