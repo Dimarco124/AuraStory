@@ -5,8 +5,8 @@ const produits = [
         titre: "REX² - L'Éveil des Cyborgs",
         description: "REX² - L'Éveil des Cyborgs est un thriller futuriste haletant qui se déroule dans les rues d'Abidjan, où la frontière entre l'humain et la machine devient de plus en plus floue. L'histoire suit Malik, un ancien livreur de pizza qui découvre qu'il est en réalité le 'Sujet 7' du Projet REX - un programme gouvernemental secret qui transforme des humains en agents dormants aux capacités surhumaines.",
         image: "REX66.png",
-        prixActuel: "1195FCFA",
-        ancienPrix: "4198FCFA",
+        prixActuel: "495FCFA",
+        ancienPrix: "2198FCFA",
         chapitre: `
             <h1>Chapitre 1 – Le Début du Merdier</h1>
 
@@ -151,8 +151,8 @@ const produits = [
         titre: "L'Odyssée des Clones",
         description: "L'Odyssée des Clones est un roman de science-fiction qui se déroule dans une Afrique futuriste en 2122. L'histoire suit Kévin, un adolescent qui découvre qu'il est un clone créé pour servir de remplacement à son 'original', le riche Kais Diomandé.Refusant ce destin, Kévin entame une quête périlleuse pour découvrir la vérité sur ses origines, traqué par la puissante Fondation qui l'a créé. Il devra s'allier à ses amis et à Kais lui-même pour démanteler un système qui joue avec l'essence même de l'humanité.",
         image: "CLONE.png",
-        prixActuel: "1035FCFA",
-        ancienPrix: "3780FCFA",
+        prixActuel: "585FCFA",
+        ancienPrix: "1780FCFA",
         chapitre: `
             <h1>Chapitre 1 : Le jour où mon monde a fissillé</h1>
     
@@ -251,8 +251,8 @@ const produits = [
         titre: "Les Portes de l’Aube",
         description: "Les Portes de l’Aube est un roman d’aventure et de fantasy qui raconte l’histoire de Kévin Gnamien, un jeune mécanicien d’Abidjan dont la vie ordinaire bascule le jour où sept portes mystérieuses apparaissent dans le ciel.",
         image: "PORTE AUBE.png",
-        prixActuel: "950FCFA",
-        ancienPrix: "4900FCFA",
+        prixActuel: "650FCFA",
+        ancienPrix: "2900FCFA",
         chapitre: `
             <p>Moi, c'est <span class="highlight">Kévin</span>. <span class="highlight">Kévin Gnamien</span>, pour te servir. J'étais juste un gars normal, tu vois ? Un <span class="highlight">Abidjanais</span> comme tant d'autres. Mon monde, c'était le bitume chaud de <span class="highlight">Yopougon</span>, l'odeur des <span class="highlight">allocos</span> au feu de bois le soir, et le bruit des mamies qui se disputaient devant le <span class="highlight">maquis</span>. La vie était simple. Je travaillais comme <span class="highlight">mécanicien</span> dans l'atelier de mon oncle, pas loin du <span class="highlight">marché Sococé</span>. Le plus grand mystère de ma journée, c'était de savoir si le client allait payer sa réparation ou trouver une excuse.</p>
 
@@ -314,8 +314,8 @@ const produits = [
         titre: "Fragments d’Éclats",
         description: "Yann, surnommé Nounours, est un jeune Ivoirien passionné d'informatique qui travaille dans un cybercafé de Treichville. Rêveur et persévérant, il nourrit l'ambition de créer TchokoMarket, une plateforme de vente en ligne pour son quartier. Sa vie routineire bascule quand il rencontre Maïa, une jeune femme mystérieuse dont la détermination le fascine.Peu à peu, Yann découvre que Maïa mène une enquête dangereuse sur la mort de son père, liée à un vaste réseau de corruption. Alors que leur relation se développe, Yann se retrouve entraîné dans une lutte où il devra utiliser ses compétences en hacking pour aider Maïa à affronter le Marionnettiste, un ennemi invisible qui manipule tout depuis l'ombre.Entre romance naissante et thriller technologique, Yann devra choisir entre ses rêves entrepreneuriaux et son engagement aux côtés de Maïa dans un combat qui pourrait tout changer.",
         image: "FRAGMENT ECLAT.png",
-        prixActuel: "1155FCFA",
-        ancienPrix: "6090FCFA",
+        prixActuel: "755FCFA",
+        ancienPrix: "3090FCFA",
         chapitre: `
             <h1>Chapitre 1: Le Quartier, le Début et les Rêves</h1>
             <p>Je m'appelle <span class="highlight">Yann</span>. Mais ici, dans le quartier, personne ne m'appelle comme 
@@ -441,7 +441,7 @@ const produits = [
         titre: "Koffi et la Bibliothèque Infinie",
         description: "Koffi, guidé par le vieux Babacar, entreprend un voyage périlleux vers la Mère de toutes les bibliothèques. Après une cérémonie magique et une épreuve dans la forêt sacrée, il pénètre dans une dimension où sont conservés tous les récits de l'humanité. Sa mission : trouver son livre personnel avant que son encre ne s'efface, ce qui signifierait sa disparition pure et simple.",
         image: "BIBLIOTHEQUES.png",
-        prixActuel: "680FCFA",
+        prixActuel: "550FCFA",
         ancienPrix: "2050FCFA",
         chapitre: `
             <p>Moi, c'est <span class="highlight">Koffi</span>. Je vous jure, ce jour-là, si j'avais su, je serais resté à la maison à aider ma mère à piler les <span class="highlight">ignames</span>. Mais non. Moi et ma <span class="highlight">curiosité</span>, on est comme l'appât et le poisson : toujours à se chercher des ennuis.</p>
@@ -570,7 +570,7 @@ const produits = [
         titre: "Amour Wahouuuu",
         description: "Yann, un jeune homme simple et discret, mène une vie monotone jusqu'au jour où Maëva entre dans sa vie comme un ouragan. Cette jeune femme au charisme et à la beauté remarquables bouleverse immédiatement son quotidien. Leur rencontre devant un kiosque marque le début d'une passion intense et tumultueuse.Mais Maëva n'est pas libre : elle est poursuivie par un homme dangereux de son passé, qui la harcèle et la menace. Malgré les risques, Yann choisit de l'aimer et de la protéger, plongeant dans une relation où l'amour se mêle au danger.Leur histoire devient une course contre la montre : fuites, rendez-vous secrets, confrontation violente avec le harceleur, et même une retraite dans un village isolé pour échapper à la menace. Yann, transformé par l'amour, passe de l'homme invisible au protecteur déterminé, prêt à tout pour sauver Maëva.",
         image: "AMOUR WAHOUU.png",
-        prixActuel: "1050FCFA",
+        prixActuel: "458FCFA",
         ancienPrix: "2100FCFA",
         chapitre: `
             <h3>Chapitre 1: Elle est rentrée comme un ouragan</h3>
@@ -785,8 +785,8 @@ const produits = [
         titre: "LA LETTRE QUI N'A PAS VIEILLI",
         description: "Koffi, un étudiant ivoirien au bord de l'échec, trouve par hasard une vieille lettre d'amour de 1952 dans un livre de bibliothèque. Écrite par Jean à sa bien-aimée Akissi, cette lettre promet un amour éternel malgré la distance.Touché par ces mots, Koffi reprend espoir et entame une quête pour découvrir la fin de cette histoire d'amour. Sa recherche le mène à Akissi, maintenant une vieille dame, qui a cru toute sa vie que Jean l'avait oubliée.",
         image: "lettre.png",
-        prixActuel: "1435FCFA",
-        ancienPrix: "3980FCFA",
+        prixActuel: "575FCFA",
+        ancienPrix: "2980FCFA",
         chapitre: `
         <p>Je m'appelle <span class="highlight">Koffi</span>, et ce jour-là, ma vie ressemblait à un sac de riz éventré. Tout fuyait entre mes doigts, tout partait en vrille. Je me souviens, c'était un mardi après-midi, et <span class="highlight">Abidjan</span> transpirait sous une chaleur à faire fondre les âmes les plus solides. Moi, j'étais assis dans un coin de la <span class="highlight">bibliothèque universitaire</span>, le front collé contre la vitre chaude, à regarder la vie défiler dehors sans moi.</p>
 
@@ -855,8 +855,8 @@ const produits = [
         titre: "Le Serment d'Abidjan",
         description: "Kévin, 32 ans, revient à Abidjan après 8 ans d'absence en France. Il veut reconquérir Akissi, son premier amour qu'il a abandonné pour poursuivre sa carrière. Mais la jeune étudiante d'autrefois est devenue une femme d'affaires accomplie, méfiante et indépendante",
         image: "serment.png",
-        prixActuel: "1210FCFA",
-        ancienPrix: "4300FCFA",
+        prixActuel: "610FCFA",
+        ancienPrix: "2300FCFA",
         chapitre: `
         <p><span class="highlight">Mon premier pas sur le sol d'<span class="place">Abidjan</span></span>, ça a été comme recevoir une gifle humide. La chaleur m'a enveloppé d'un coup, cette chaleur ivoirienne qui colle à la peau et qui parle directement au sang. <span class="highlight">Huit ans</span>. Huit longues années depuis que j'avais quitté cette terre qui m'a vu naître. L'aéroport <span class="place">Félix-Houphouët-Boigny</span> avait changé, moderne maintenant, tout brillant, mais l'âme, elle, était restée la même.</p>
 
@@ -1223,6 +1223,7 @@ for (let i = 0; i < 5; i++) {
     header.appendChild(part);
 
 }
+
 
 
 
